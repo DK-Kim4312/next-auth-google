@@ -3,8 +3,8 @@ import passport from 'passport';
 import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
 
 // Replace with your Google OAuth credentials
-const GOOGLE_CLIENT_ID = '441555722825-ckk9g11imnrher2ki7icmrs74l3s6jou.apps.googleusercontent.com';
-const GOOGLE_CLIENT_SECRET = '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';
+const GOOGLE_CLIENT_ID = '';
+const GOOGLE_CLIENT_SECRET = '';
 
 passport.use(
   new GoogleStrategy(
